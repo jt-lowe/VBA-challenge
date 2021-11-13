@@ -1,2 +1,2 @@
 # VBA-challenge
-Monash Data Bootcamp Assignment #2
+Monash Data Bootcamp Week 2 Assignment
