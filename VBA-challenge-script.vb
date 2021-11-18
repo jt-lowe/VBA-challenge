@@ -78,10 +78,11 @@ Sub Wolf()
             Cells(output_row,tablestart+1).Value=year_change
 
         'Apply conditional formatting, color value from http://dmcritchie.mvps.org/excel/colors.htm
-            if year_change > 0
-                Cells(output_row,tablestart+1).ColorIndex = 4
+            if year_change > 0 then
+                Cells(output_row,tablestart+1).Interior.ColorIndex = 4
             Else
-                Cells(output_row,tablestart+1).ColorIndex = 3
+                Cells(output_row,tablestart+1).Interior.ColorIndex = 3
+            End If
 
         'Calculate % change, then print
             percent_change = ((last-first)/first)
