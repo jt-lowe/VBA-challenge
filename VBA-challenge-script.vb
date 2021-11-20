@@ -113,6 +113,10 @@ For Each ws in Worksheets
             
         Next i
 
+
+
+'BONUS --------------------------------------------------------------------------------------
+
     'Set up the table for bonus output, beginning 2 columns after end of last table
         dim bonus_output as Integer
 
